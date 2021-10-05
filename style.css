@@ -1,12 +1,19 @@
 /* GENERAL */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
 
 section {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 1;
+    background-color: white;
 }
 
 /* TYPOGRAPHY */
@@ -85,10 +92,8 @@ header {
 }
 
 .nav-box {
-    display: block;
     width: 50%;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
 }
 
@@ -112,6 +117,51 @@ header nav a:hover {
 
 /* CONTENT */
 
-.first-section {
-    margin-top: 160px;
+.img-section {
+    background: url('server-room-aws.jpg') no-repeat center fixed;     
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.img-text-box {
+    width: 540px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.img-h2 {
+    color: rgb(193 193 193);
+    text-shadow: -3px -1px 4px rgb(0 0 0);
+}
+
+.img-p {
+    color: rgb(157 157 157);
+    text-shadow: 0px 0px 10px rgb(0 0 0);
+}
+
+.first-section {
+    margin-top: 60px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #232f3e;
+}
+
+footer h1 {
+    height: 80px;
+    font-size: 1.4em;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
