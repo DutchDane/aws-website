@@ -101,6 +101,12 @@ header nav {
     text-align: right;
 }
 
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
 header nav a {
     color: white;
     padding: 29px 20px;
