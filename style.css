@@ -109,6 +109,7 @@ header ul {
     display: flex;
     list-style: none;
     align-items: center;
+    padding: 0;
 }
 
 header nav a {
@@ -175,3 +176,61 @@ footer h1 {
     text-align: center;
 }
 
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 50px 20px;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 0 1em;
+    }
+
+    .title-box {
+        width: 76%;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .logo-box {
+        display: block;
+        position: absolute;
+        top: 4%;
+        left: 82%;
+        background-color: #232f3e;
+        border-radius: 200px;
+        z-index: 1;
+    }
+
+    .logo-box {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        height: 70px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .nav-box {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header ul {
+        margin: 0.6em 0;
+    }
+
+    header nav a {
+        padding: 6px 10px;
+    }
+
+    .img-text-box {
+        margin: 0 20px;
+    }
+}
