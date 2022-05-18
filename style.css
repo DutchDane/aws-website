@@ -16,6 +16,10 @@ section {
     background-color: white;
 }
 
+#footer-text {
+    margin-top: 1em;
+}
+
 /* TYPOGRAPHY */
 
 h1 {
